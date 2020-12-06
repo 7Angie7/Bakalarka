@@ -126,6 +126,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+DISABLE_COLLECTSTATIC=1
 
 # Channels
 ASGI_APPLICATION = 'mysite.asgi.application'
