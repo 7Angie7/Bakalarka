@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
+import django
 from pathlib import Path
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", __file__)
